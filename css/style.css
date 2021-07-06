@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 96%;
+  margin: auto;
+}
+hr{
+  color: rgb(0,1,1,0.23);
+  height:0;
+  margin:0;
+}
+header{
+  padding: 20px;
+  font-family: 'Roboto',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+  display: flex;
+}
+.heading{
+  height: 100%;
+  color: rgb(0,1,1 .23);
+  display: flex;
+  flex-grow: 1;
+}
+.heading h2{
+margin: 0;
+font-weight: 250;
+}
+.right-head{
+  justify-content: flex-end;
+  right: 0;
+}
+.blurb{
+  display:flex;
+  padding: 20px;
+}
+.blurb-row{
+  border: 1.5px solid rgb(0,1,1,.23);
+  border-radius: 12px;
+  width: 300px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+.desc{
+  background-color:#3b78e7;
+  font-family: 'Roboto',Helvetica,Arial,sans-serif;
+  padding: 15px;
+  color: white;
+  display: flex;
+  position: relative;
+}
+.desc .desc-in{
+  flex-grow: 1;
+}
+.class-name:hover{
+  text-decoration: underline;
+}
+.sub-name{
+  margin:5px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.sec-name{
+  margin: 5px;
+  font-size: 14px;
+  font-weight: light;
+}
+.teacher-name{
+  margin: 5px;
+  font-size: 14px;
+  font-weight: light;
+}
+.dot{
+  font-weight: bold;
+}
+.disp-pic{
+  margin-top:50px;
+margin-bottom: 100px;
+}
+.disp-pic img{
+  float: right;
+  height: 100px;
+  width: 100px;
+  border-radius: 70px;
+  marign-bottom:80px;
+  margin-right: 15px;
+}
+.btm-col{
+  border-top: 1.5px solid rgb(0,1,1,.23);
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  align-items:flex-end;
+  color: grey;
+}
+.ico-btn{
+  margin-top: 20px;
+}
+.icon{
+  margin: 10px;
+}
+footer .container{
+color: grey;
+margin-left: 20px;
+position:fixed;
+bottom:40px;
+
+}
